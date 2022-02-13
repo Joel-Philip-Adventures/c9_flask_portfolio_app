@@ -78,9 +78,9 @@ def time_post():
             return render_template('time.html', result=answer)
 	
 #Creating my own Page
-@app.route('/Dubai')
-def python_apps_page():
-	return render_template('Dubai.html')
+@app.route('/dubai')
+def dubai_page():
+	return render_template('dubai.html')
 
 
          
