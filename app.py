@@ -83,6 +83,11 @@ def python_apps_page():
 	# testing stuff
 	return render_template('python_apps.html')
 
+#Creating my own Page
+@app.route('/dubai')
+def dubai_page():
+	return render_template('dubai.html')
+
 
 @app.route('/blog', methods=['GET'])
 def blog_page():
